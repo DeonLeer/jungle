@@ -46,7 +46,7 @@ RSpec.describe User, type: :model do
       expect(user2).to be_truthy
     end
     it "email should be case in-sensititve" do
-      user1 = User.create( first_name: "first", last_name: "last", email: "email@email.com", password: "pass1", password_confirmation: "pass1" )
+      user1 = User.create( first_name: "first", last_name: "last", email: "emaiL@email.com", password: "pass1", password_confirmation: "pass1" )
       user1.save
       user2 = User.authenticate_with_credentials("Email@email.com", "pass1")
       expect(user2).to be_truthy
