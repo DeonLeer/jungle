@@ -2,6 +2,9 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+![Homepage](https://raw.githubusercontent.com/DeonLeer/jungle/master/public/homepage.png)
+![Cart](https://raw.githubusercontent.com/DeonLeer/jungle/master/public/mycart.png)
+![Order](https://raw.githubusercontent.com/DeonLeer/jungle/master/public/order.png)
 
 ## Setup
 
